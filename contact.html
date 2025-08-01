@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Golden Dock - Home</title>
+    <title>The Golden Dock - Contact Us</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -29,11 +29,26 @@
             </nav>
         </header>
 
-        <section class="sec-intro">
-            <div class="intro">
-                <h1>Welcome to The Golden Dock</h1>
-                <p>Dine by the waterside with magical views</p>
-                <a href="reservation.html" class="btn">Reserve Now</a>
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <label for="user">Full Name</label>
+                    <input type="text" id="user" placeholder="Your name" required />
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email" required />
+
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" placeholder="Your Message"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <p><strong>Address:</strong> MG Road, Nagpur, Maharashtra</p>
+                    <p><strong>Phone:</strong> +91 78230 98970</p>
+                    <p><strong>Email:</strong> contact@foodieshub.com</p>
+                </div>
             </div>
         </section>
 
